@@ -1,5 +1,70 @@
+h1{
+    text-align: center;
+    text-size-adjust: 60px;
+    background-color: rgb(210, 85, 175);
+    padding: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+section p{
+    text-align: center;
+    text-size-adjust: 45px;
+    padding: 15px;
+    font-style: italic;
+}
+
+
 body {
-    background-image: url('imagenes/fondo\ facial.jpg');
-    background-size: cover;
-    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container {
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+
+.image-container {
+    width: 30%; 
+    margin: 10px;
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+
+.image-container:hover img {
+    transform: scale(1.1); 
+}
+
+footer{
+    text-align: center;
+    text-size-adjust: 40px;
+    background-color:  rgb(210, 85, 175);
+    padding: 40px;
+}
+
+section h2{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+section ul li{
+    padding: 15px;
 }
